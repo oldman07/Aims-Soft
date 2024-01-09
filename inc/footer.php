@@ -2,8 +2,8 @@
     <section id="contact-us">
       <!-- above footer  -->
      <div class="bg-merishop-abovefooter " >
-       <h3 class="mr-lt color-white pd-top-20">Support Desk</h3>
-       <div class="mr-lt color-white mb-4">
+       <h3 class="container  color-white pd-top-20">Support Desk</h3>
+       <div class="container  color-white mb-4">
          <p class="bs">Question, Bug reports, Feedback</p>
          <p class="bs mr-top--10">_____</p>
          <p class="bs">we’re here for it all.</p>
@@ -42,7 +42,7 @@
                />
              </div>
              <div class="col-md-11">
-               <p class="footer-text-color mr-left--30px">+923578596784</p>
+               <p class="footer-text-color footer-info  mr-left--30px">+923578596784</p>
              </div>
            </div>
            <div class="row mr-top--20">
@@ -56,7 +56,7 @@
                />
              </div>
              <div class="col-md-11">
-               <p class="footer-text-color mr-left--30px">contact@aimssoft.online</p>
+               <p class="footer-text-color footer-info mr-left--30px">contact@aimssoft.online</p>
              </div>
            </div>
  
@@ -71,7 +71,7 @@
                />
              </div>
              <div class="col-md-11">
-               <p class="footer-text-color mr-left--30px">
+               <p class="footer-text-color footer-info mr-left--30px">
                  Plot # 94 St # 4, H8/1 Islamabad, Pakistan
                </p>
              </div>
