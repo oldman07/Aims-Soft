@@ -3260,9 +3260,9 @@ background-repeat: no-repeat;
   text-align: center;
   /* z-index: ; */
  }
- .bg-merishop-abovefooter{
+ /* .bg-merishop-abovefooter{
   background-color: var(--ninthColor);
- }
+ } */
  .bg-merishop-blue{
   background-color: var(--tenthColor);
   
@@ -3898,12 +3898,19 @@ height: 5px;
 
 
 
- /* test purpose  */
-.testing-bg{
-  background-image: url('http://127.0.0.1:5501/assets/img/School/card/attendance.png');
-}
+
 
  /* ---------Reusability Matter--------- */
+
+ .page-merishop {
+  background-color: var(--eleventhColor);
+ }
+ .page-school  {
+  background-color: var(--fifthColor);
+ }
+
+
+
  /* ------footer------  */
 
  .page-merishop .footer-img {

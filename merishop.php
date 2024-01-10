@@ -1,6 +1,11 @@
 
 <!-- index.php -->
-<?php include('inc/merishop/header.html'); ?>
+<?php 
+$page_name = "Meri Shop";
+$bg_body_class = 'page-merishop';
+$menu_items = ["Salient Features", "Pricing Plan", "Contact Us"];
+$pointers_to_section = ["salient-feature-merishop","pricing-plan","contact-us"];
+include('inc/header.php'); ?>
   <!-- Hero Section  -->
   <div id="hero-merishop" class="container" style="margin-top: 120px">
       <div  class="row">

@@ -12,6 +12,16 @@
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
+    <!-- Font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700|Dosis:300,400,500,700|Roboto:300,400,500,700"
@@ -38,13 +48,29 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/products.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: BizPage - v5.11.0
-  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
+  <body class="<?php  echo $bg_body_class; ?> bg-page font-merishop width-100percent adjustment"  >
+  
+  <?php include 'inc/logo.php'?>
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-11 d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <h1 class="logo"><a href="index.html"><img src="<?php echo isset($logo_path) ? $logo_path : ''; ?>" width="100%" height="auto" alt="" /></a></h1>
+              <h3 class="page-name"><?php echo $page_name ?></h3>
+            </div>
+            <nav id="navbar" class="navbar">
+              <ul class=" ">
+              <?php foreach ($menu_items as $index => $item): ?>
+   <li><a class="nav-link scrollto" href="#<?php echo $pointers_to_section[$index]; ?>"><?php echo $item; ?></a></li>
+<?php endforeach; ?>
+ </ul>
+ <i class="bi bi-list mobile-nav-toggle"></i>
+</nav>
 
-  <body class="page-school">
+          </div>
+        </div>
+      </div>
+     </header>
+    

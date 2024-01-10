@@ -1,4 +1,10 @@
-<?php include('inc/school/header.html'); ?>
+<!-- index.php -->
+<?php 
+$page_name = "School";
+$bg_body_class = 'page-school';
+$menu_items = ["Salient Features", "Portals", "Pricing Plan", "Contact Us"];
+$pointers_to_section = ["hero-school", "portals" ,"pricing-plan","contact-us"];
+include('inc/header.php'); ?>
     <!--  Hero section  -->
     <div id="hero-school" class="hero-setting">
       <div class="row bg-hero">
