@@ -3096,7 +3096,7 @@ background-repeat: no-repeat;
 }
  .orange-line {
   width: 100%;
-  height: 3px;
+  height: 5px;
   background-color: var(--firstColor);
   margin-top: 25px;
   margin-left: -20px;
@@ -3147,6 +3147,22 @@ background-repeat: no-repeat;
  .portal-img-style-l{
   
  }
+ .orange-line-school {
+  width: 100%;
+  height: 5px;
+  background-color: var(--firstColor);
+  margin-top: 25px;
+  margin-left: -20px;
+  /* margin-right: 288px; */
+}
+.orange-line-school-R {
+  width: 100%;
+  height: 5px;
+  background-color: var(--firstColor);
+  margin-top: 25px;
+  margin-right: -20px;
+  /* margin-right: 288px; */
+}
 
  /* --------Best Plan-------  */
  .plan-card-css{
@@ -3203,6 +3219,9 @@ background-repeat: no-repeat;
  }
  .font-weight-bold{
   font-weight: bold;
+ }
+ .between-line-font{
+  font-size: 34px;
  }
 
 /* ------meri shop--------- */
@@ -3505,7 +3524,7 @@ margin-right: 30%
   margin-left: 0px;
 }
 .page-school #contact-us{
-  width: 120%;
+  width: 100%;
  }
  }
 
@@ -3525,7 +3544,7 @@ margin-right: 30%
     margin-top: 15px;
   }
   .orange-line-custom-salient-r{
-    width: 175%;
+    width: 100%;
     margin-left: -24px;
     margin-top: 15px;
 
@@ -3597,7 +3616,15 @@ margin-right: 30%
   width: 450px;
   margin-top: -50px;
 }
-
+.between-line-font{
+  font-size: 14px;
+  }
+.orange-line-school{
+  margin-top: 5px;
+  }
+  .orange-line-school-R{
+    margin-top: 5px;
+    }
 .font-30{
   font-size: 24px;
 }
@@ -3612,8 +3639,14 @@ margin-right: 30%
   margin-left: 0px;
 }
 .page-school #contact-us{
-  width: 120%;
+  width: 100%;
  }
+ .choose-plan-top-bg{
+  font-size: 20px;
+ }
+ .h-410{
+  height: 440px;
+} 
  }
  @media screen and (min-width: 1024px) and (max-width: 1365px) {
   /* #zoomed-text {
@@ -3721,6 +3754,15 @@ height: 5px;
     background-color: var(--firstColor);
     margin-top: 20px;
 }
+.between-line-font{
+  font-size: 19px;
+  }
+.orange-line-school{
+  margin-top: 10px;
+  }
+.orange-line-school-R{
+    margin-top: 10px;
+    }
 .page-name{
   margin-right: 14rem;
 }
@@ -3867,6 +3909,15 @@ height: 5px;
  
     margin-top: 6px;
 }
+.between-line-font{
+font-size: 26px;
+}
+.orange-line-school{
+margin-top: 15px;
+}
+.orange-line-school-R{
+  margin-top: 15px;
+  }
 .page-name{
   margin-right: 27rem;
 }
