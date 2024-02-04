@@ -1,4 +1,4 @@
-<div class="col-md-4 mb-3">
+
           <div id="" class="card salient-card-bg salient-feature-lt-rt">
             <img
               src="assets/img/School/card/graduate.png"
@@ -16,7 +16,7 @@
 
             <div class="salient-card-body">
               <h3 class="color-orange mr-top-10 txt-center font-18">
-                Admission Process
+                <?php echo $salient_feature_title  ?>
               </h3>
               <!-- <p class="color-white txt-center pd-right-10 pd-left-10 txt-10 font-14"> -->
               <ul class="color-white txt-center pd-right-10 txt-10 font-14">
@@ -27,4 +27,4 @@
               <!-- </p> -->
             </div>
           </div>
-        </div>
+        

@@ -50,6 +50,7 @@
           ?>
         <!-- <div class="col-md-1"></div> -->
       </div>
+      
       <div class="row mb-5">
         <?php
         $card_title = "Event Creation";
