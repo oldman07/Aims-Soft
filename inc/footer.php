@@ -100,7 +100,7 @@
        </div>
          </div>
          <div class="col-md-3">
-           <div class="footer-img">
+           <div class="footer-img ">
              <img class=""
                src="<?php
                 
